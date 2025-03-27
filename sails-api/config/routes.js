@@ -15,7 +15,9 @@ module.exports.routes = {
   
     // Route pour récupérer tous les Digimons d'un utilisateur
     'GET /user/:userId/digimons': 'DigimonController.findByUser',
+    'GET /user': 'UserController.find',
 
     'POST /user': 'UserController.create',
+    'DELETE /user/:id': 'UserController.destroy', 
   };
   

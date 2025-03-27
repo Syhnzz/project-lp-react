@@ -17,7 +17,6 @@ module.exports = {
 
     email: { type: 'string', isEmail: true },
 
-    age: { type: 'number' },
 
     //  ╔═╗╔╦╗╔╗ ╔═╗╔╦╗╔═╗
     //  ║╣ ║║║╠╩╗║╣  ║║╚═╗
@@ -29,7 +28,7 @@ module.exports = {
     //  ╩ ╩╚═╝╚═╝╚═╝╚═╝╩╩ ╩ ╩ ╩╚═╝╝╚╝╚═╝
 
     digimons: {
-      collection: 'digimon', // Relation One-to-Many
+      collection: 'digimon', 
       via: 'user', 
     },
 

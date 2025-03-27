@@ -20,14 +20,8 @@ module.exports.http = {
   *                                                                           *
   ****************************************************************************/
 
-  cors: {
-    allRoutes: true,
-    allowOrigins: "*",
-    allowCredentials: false,
-    allowRequestHeaders: "*",
-  },
-
   middleware: {
+    
 
     /***************************************************************************
     *                                                                          *
